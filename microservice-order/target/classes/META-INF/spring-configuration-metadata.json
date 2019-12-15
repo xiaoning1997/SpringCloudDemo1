@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "mall",
+      "type": "cn.xn.order.properties.OrderProperties",
+      "sourceType": "cn.xn.order.properties.OrderProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mall.item",
+      "type": "cn.xn.order.properties.ItemProperties",
+      "sourceType": "cn.xn.order.properties.OrderProperties"
+    }
+  ],
+  "hints": []
+}

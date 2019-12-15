@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: mall-microservice-item #  指定服务名
+
+eureka:
+  client:
+    register-with-eureka: true # 是否将自己注册到Eureka服务，默认true
+    fetch-registry: true # 是否从Eureka中获取注册信息，默认true
+    service-url: # Eureka客户端与Eureka服务端进行交互的地址
+      defaultZone: http://127.0.0.1:8000/eureka/
+  instance:
+    prefer-ip-address: true # 将自己的ip注册到Eureka服务中

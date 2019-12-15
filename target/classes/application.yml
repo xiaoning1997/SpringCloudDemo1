@@ -1,0 +1,9 @@
+server:
+  port: 8000
+
+eureka:
+  client:
+    registerWithEureka: false # �Ƿ��Լ�ע�ᵽEureka�����У� ���������������ע��
+    fetchRegistry: false # �Ƿ��Eureka�л�ȡע����Ϣ
+    serviceUrl: # Eureka�ͻ�����Eureka����˽��н����ĵ�ַ
+      defaultZone: http://localhost:${server.port}/eureka/
